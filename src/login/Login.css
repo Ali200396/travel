@@ -1,0 +1,55 @@
+.login {
+    max-width: 422px;
+    margin: 10px auto;
+    min-height: 50vh;
+}
+.header {
+    color: #f60 !important;
+    font-size: 22px;
+    font-family: "Ubuntu", Sans-serif;
+}
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 23px;
+}
+.segment {
+    background-color: #02122c;
+    padding: 27px;
+    padding-bottom: 42px;
+    color: #111;
+    font-size: 14px;
+    border-radius: 19px;
+    box-shadow: 2px 8px 10px 0px rgba(17, 17, 18, 0.05);
+    min-height: 250px;
+}
+.segment input {
+    width: 100%;
+    display: block;
+    margin-top: 17px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #111;
+    border: none;
+    font-size: 16px;
+    border-radius: 17px;
+    text-align: center;
+}
+.segment input[type="submit"].active {
+    background-color: #f60 !important;
+    color: #fff;
+}
+.segment input[type="submit"] {
+    color: #0c0c0c;
+    font-weight: bold;
+}
+/* p{
+    margin-top: 17px !important;
+    background-color: #ff6600 !important;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+*/
+p a {
+    color: #fff !important;
+}

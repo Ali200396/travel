@@ -1,0 +1,149 @@
+.plane {
+    display: flex;
+    width: 100%;
+    max-width: 65.5rem;
+    margin: 4.5rem auto 6rem;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+@media (max-width: 32.25rem){
+    .loob {
+        margin-right: 0;
+        flex-flow: column nowrap;
+    }
+    .plane {
+        padding: 0 1.125rem;
+    };
+    
+} 
+@media (max-width: 32.25rem){
+   
+    .all {
+        width: 100%;
+        min-width: unset;
+        max-width: unset;
+    }
+} 
+
+
+.plane h1{
+    padding: 3px 7px 1px 3px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: #092f57;
+    margin-top: 5px;
+   
+}
+.plane p{
+    margin-bottom: 1.875rem;
+    color: #444560;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-left:0;
+}
+
+.loob {
+    display: flex;
+    margin-right: -1.125rem;
+    margin-bottom: -1.125rem;
+    flex-flow: row wrap;
+}
+.all {
+    display: flex;
+    min-width: 20rem;
+    /* max-width: calc(50% - 1.125rem); */
+    margin: 0 1.125rem 1.125rem 0;
+    padding: 0;
+    flex-flow: row nowrap;
+    flex: 1 1 30%;
+    border-radius: .25rem;
+    background-color: #f1f2f8;
+    overflow: hidden;
+
+    
+   
+    
+}
+.image {
+    height: 100px;
+    flex: 0 0 100px;
+    background-color: #dddde5;
+}
+.image img {
+    border-style: none;
+    width: 100px;
+    height: 100px;
+}
+
+
+.detail{
+    display: flex;
+    max-height: 100px;
+    padding: 0 1.125rem;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 18.75rem;
+}
+/* //h1 */
+.h5 {
+    margin-bottom: .375rem;
+    color: #111236;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    margin: 0;
+}
+
+.span {
+    font-weight: 500;
+}
+
+.spanlink {
+    margin: 0;
+}
+
+/*ul*/
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.list-item {
+    display: inline-block;
+}
+
+.list-item:first-child:before {
+    content: "";
+    margin: 0;
+}
+.list-item:before {
+    content: "\2022";
+    margin: 0 .375rem;
+    color: #ff7b59;
+    font-size: .875rem;
+}
+
+
+.link {
+    text-align: left;
+    color: #ff7b59;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    
+   
+}
+.link:hover{
+    text-decoration: none;
+    font-weight: 700;
+    color: #ff7b59;
+}

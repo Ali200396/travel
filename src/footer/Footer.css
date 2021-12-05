@@ -1,0 +1,83 @@
+.footer1 .info{
+    margin-right: 30px;
+}
+.footer1 .tag{
+  margin-right: 50px;
+}
+.footer1 .cont >div{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 33px;
+}
+.footer1 .cont i{
+  margin-right: 6px;
+  color: #ff6600;
+}
+.footer1 ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+;
+}
+
+.footer1 ul li {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  background: #282e3a;
+  border-radius: 30px;
+  padding: 12px 17px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+
+  
+}
+.footer1 ul li:hover{
+    color:#00bcd4d6 ;
+    cursor: pointer;
+}
+
+
+
+
+.footer1  h1 {
+  
+  color: #ff6600;
+  
+margin-bottom: 20px;
+margin-top: 20px;
+
+font-family: "Ubuntu", Sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+ 
+  
+}
+
+.footer1 .fo {
+  
+  font-family: "Ubuntu", Sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  
+}
+
+
+
+
+
+.footer1{
+ 
+  padding-top: 20px;
+  background-color: #02122c;
+ color: #ffffffd6;
+  overflow: hidden;
+
+}
+/* End Footer */

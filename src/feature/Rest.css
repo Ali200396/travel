@@ -1,0 +1,121 @@
+
+  /*start best price*/
+  .team{
+    padding-top: 90px;
+    padding-bottom:70px;
+}
+.team h1{
+    padding: 3px 7px 1px 3px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: #092f57;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.team .cd{
+    height:230px;
+    position: relative;
+    overflow: hidden;
+
+}
+.card-top{
+    width: 100%;
+}
+.team .card{
+    border: 1px solid rgba(35,39,86,0.05);
+    box-shadow: 2px 8px 10px 0px rgba(35,39,86,0.05);
+    border-radius: 18px;
+    overflow: hidden;
+    
+}
+.team h4{
+    color: #092f57;
+    margin-bottom: 0;
+}
+.team h4 span{
+    font-size: 18px;
+    padding-left: 5px;
+}
+.team a{
+    
+    cursor: pointer;
+    background-color: #ff6600;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.team .cd:hover img{
+    transform: scale(1.1 ,1.1);
+}
+.team .cd:hover .ovo{
+    opacity: 1;
+}
+img{
+    transition: .5s ease-in ;
+}
+.team .ovo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 23px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.42);
+    line-height: 14px;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+    opacity: 0;
+}
+.team .ovo p{
+    font-size: 15px;
+}
+.team .ovo p span{
+    font-weight: bold;
+}
+.team .ovo button{
+    display: block;
+    margin: 70px auto 0;
+   
+}
+/*end team*/
+
+/*end best price*/
+
+/*start feature*/
+
+/* start feature*/
+.feature{
+    padding:70px 0;
+    background-color: #f7f6fd;
+    
+}
+.feature i{
+    padding: 12px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color:#ff6600;
+    
+}
+.feature h3{
+    font-size: 24px;
+    color:#08536d;
+
+    
+}
+.feature p{
+    color:#989898;
+    margin-bottom: 40px;
+}
+/* end feature*/
