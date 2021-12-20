@@ -60,7 +60,7 @@ class FlightForms extends Component {
                 placeholder="selct place"
                 value={from}
                 onChange={handelChange}
-                required
+                required = {true}
               />
 
               <datalist id="From" key={Math.random()}>
@@ -75,6 +75,7 @@ class FlightForms extends Component {
                 name="to"
                 placeholder="selct place"
                 value={to}
+                required = {true}
                 onChange={handelChange}
               />
 
@@ -100,6 +101,7 @@ class FlightForms extends Component {
                   name="da1"
                   value={da1}
                   onChange={handelChange}
+                  required = {true}
                 />
               </div>
             </div>
@@ -109,8 +111,10 @@ class FlightForms extends Component {
                 <input
                   type="date"
                   name="da2"
-                  value={da2}
+                  value={radioValue === 'Return' ? da2:''}
                   onChange={handelChange}
+                  disabled = {radioValue === 'Return' ? false:true }
+                  required = {radioValue === 'Return' ? true:false}
                 />
               </div>
             </div>
@@ -118,9 +122,9 @@ class FlightForms extends Component {
               <div>
                 <label></label>
                 <button type="submit" onSubmit={() => get} >
-                  <Link style={{color:"#fff"}}  to="/flight-tickets">
-                    Get ticket
-                  </Link> 
+                  {!from || !to || !da1  ?  'Get tickets' :( <Link style={{color:"#fff"}}  to="/flight-tickets">
+                    Get tickets
+                  </Link>)  } 
                 </button>
               </div>
             </div>
